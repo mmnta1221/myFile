@@ -19,15 +19,15 @@ h2{
     color: green;
 }
 .pink{
-    color: rgb(255, 0, 234);
+    color: rgb(255, 0, 234); /*class*/
 }
 fieldset{
     background-color: azure;
     box-shadow: 2px 2px 2px black;
 }
 li{
-    color: black;
+    color: black; /*тег*/
 }
 #pink{
-    color: aqua;
+    color: aqua; /*id*/
 }
