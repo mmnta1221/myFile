@@ -1,0 +1,162 @@
+body {
+
+    background-color: #f4f4f4;
+    padding: 20px;
+    }
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+.box {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.block { 
+    display: block;
+     background-color: #4da6ff; 
+    }
+.inline { 
+
+    display: inline;
+    background-color: #66cc66; 
+}
+.flex-container1 { 
+    display: flex; 
+    background-color: #f06969; 
+}
+
+
+
+.flex-container2 {
+    display: flex;
+    background-color: #ffa07a;
+    }
+
+
+
+.flex-container3 {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #f08080;
+    height: 200px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb347;
+    height: 300px;
+
+ }
+        
+
+   
+.flex-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #d291bc;
+    height: 300px;
+        }
+.box {
+    width: 100px; 
+    height: 100px; 
+}
+
+    
+.flex-container5 {
+    display: flex;
+    background-color: #000200;
+        }
+.item1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    background-color: #ffd966;
+}
+.item2 {
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 150px;
+    background-color: #93c47d;
+}
+.item3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    background-color: #6fa8dc;
+}
+
+
+
+.flex-container6 {
+    display: flex;
+    background-color: #000000;
+}
+.flex-container6 .item1 {
+    flex: 0 0 50%; 
+    background-color: #ffa07a; 
+}
+.flex-container6 .item2 { 
+    flex: 1; 
+    background-color: #20b2aa; 
+}
+.flex-container6 .item3 { 
+    flex: 0 0 100px; 
+    background-color: #9370db; 
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #4682b4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #5f9ea0;
+    border-radius: 5px;
+
+}
+.menu a:hover {
+    background-color: #7fffd4;
+    color: #333;
+        }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f5deb3;
+    padding: 20px;
+}
+.card {
+    flex: 1 1 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+
+}
