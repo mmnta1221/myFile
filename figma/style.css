@@ -8,6 +8,12 @@ body{
     color: #fff;
     background-color:#141414;
 }
+.window{
+    width: 1440px;
+    align-self: center;
+    margin: auto;
+    background-color:#141414;
+}
 header{
     padding: 40px 50px 10px 50px;
     background-color: #141414;
@@ -40,12 +46,16 @@ nav{
 .hero{
     display: flex;
     justify-content: space-between;
-    padding: 90px;
+    padding: 50px;
 }
 .image{
     width: 650px;
     height: 873.44px;
 
+
+}
+.image img{
+    border-radius: 1em;
 }
 .content h2{
     font-size: 70px;
@@ -55,6 +65,8 @@ nav{
     margin-bottom: 80px;
     line-height: 88px;
     margin-right: 50px;
+    margin-left: 210px;
+    
 }
 .cotent h2 span{
     font-size:75px;
@@ -66,6 +78,7 @@ nav{
 }
 .platforms{
     margin-top: 20px;
+    margin-left: 210px;
 }
 .icons{
     width: 32px;
@@ -97,8 +110,8 @@ nav{
 }
 .first_episode{
     background-color: rgb(0, 0, 0);
-    width: 1900px;
-    height:520px;
+    width: 1300px;
+    height:545px;
     border-radius: 32px;
     display: flex;
     padding: 50px;
@@ -149,8 +162,8 @@ nav{
 }
 .second_episode{
     background-color: rgb(0, 0, 0);
-    width: 1900px;
-    height:520px;
+    width: 1300px;
+    height:545px;
     border-radius: 32px;
     display: flex;
     padding: 50px;
@@ -159,8 +172,8 @@ nav{
 .third_episode{
     margin-top: 20px;
     background-color: rgb(0, 0, 0);
-    width: 1900px;
-    height:520px;
+    width: 1300px;
+    height:545px;
     border-radius: 32px;
     display: flex;
     padding: 50px;
@@ -212,7 +225,7 @@ nav{
 
 }
 .container{
-    width: 1900px;
+    width: 1300px;
     height: 387px;
     padding: 90px;
     background-color: #000000;
@@ -261,21 +274,21 @@ nav{
     position: absolute;
     left: 1px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 270px;
 }
 .fifth{
     padding-left: 100px;
 }
 .conn{
     display: grid;
-    grid-template-columns: 600px 600px 600px;
+    grid-template-columns: 423px 423px 423px;
     grid-template-rows: 100px, 200px;
-    gap: 50px;
+    gap: 10px;
     border: 1px solid black;
 }
 .item{
     background-color: #fff;
-    height: 350px;
+    height: 321px;
     border-radius: 1em;
     background-color: #000000;
     padding: 50px;
@@ -289,8 +302,10 @@ nav{
     color: #FFFFFFB2;
     margin-top: 20px;
 }
-.item h3{
+.item h1{
     margin-top: 10px;
+    font-size: 36px;
+    font-weight: 400;
 }
 footer{
     display: flex;
