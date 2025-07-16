@@ -8,14 +8,16 @@ header{
 .header1{
     display: flex;
     justify-content: space-between;
-    padding: 20px 52px;
+    padding: 12px 40px;
     box-shadow: 0px 4px 20px 0px #00000014;
     align-items: center;
 
 
 }
 
-
+nav a.active{
+    color: #5C53E9;
+}
 .header1 a{
     font-size: 14px;
     font-weight: 400;
@@ -99,7 +101,7 @@ header{
 .header3{
     display: flex;
     justify-content: space-between;
-    padding: 20px 48px;
+    padding: 25px 36px;
     box-shadow: 0px 4px 20px 0px #00000014;
     align-items: center;
 
@@ -121,7 +123,7 @@ header{
 .header4{
     display: flex;
     justify-content: space-between;
-    padding: 20px 48px;
+    padding: 25px 36px;
     box-shadow: 0px 4px 20px 0px #00000014;
     align-items: center;
     background-color: #111928;
@@ -138,7 +140,7 @@ header{
 .header5{
     display: flex;
     justify-content: space-between;
-    padding: 20px 48px;
+    padding: 25px 36px;
     box-shadow: 0px 4px 20px 0px #00000014;
     align-items: center;
     background-color: #111928;
