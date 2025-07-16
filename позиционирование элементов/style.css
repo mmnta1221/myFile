@@ -69,8 +69,8 @@ body{
 
 }
 .sticky{
-    top: 1rem;
     position: sticky;
     color: aliceblue;
-    font-family: 'Century Gothic';
+    top: 10px;
+
 }
