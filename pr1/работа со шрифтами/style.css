@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(247, 230, 186);
+    text-align: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+p{
+  font-family: "Lilita One", sans-serif, 'Book Antiqua';
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(136, 77, 0);
+}
+@font-face {
+    font-family: 'a';
+    src: url('C:\Users\user\Desktop\pr1\работа со шрифтами\Cormorant_Garamond,Lilita_One\Cormorant_Garamond\static');
+}
+h1{
+    font-family: 'a', '';
+    color: rgb(99, 56, 0);
+}

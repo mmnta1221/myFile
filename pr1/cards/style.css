@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.card1{
+    background-color: rgb(0, 0, 0);
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    display: flex;
+
+    font-family: 'Dm Sans';
+    
+}
+.inside{
+
+    display: flex;
+    margin: 40.44px 40px 40.44px 40px;
+}
+.card1 img{
+    width: 389px;
+    height: 465px;
+}
+
+.info1{
+    height: 465px;
+    margin-left: 50px;
+}
+.info1 button{
+    width: 208px;
+    height: 51px;
+    color: #fff;
+    background-color: #118DA8;
+    border-radius: 6px;
+    
+    border: 0;
+}
+.info1 h3{
+    margin-top: 48px;
+    color: #118DA8;
+  
+}
+.info1 h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    margin-top: 17px;
+    color: #fff;
+}
+.info1 p{
+    margin-top: -18px;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #FFFFFFB2;
+}
+.info1 h4{
+    text-align: center;
+    background-color: #191919;
+    width: 73px;
+    height: 27px;
+    padding-top: 3px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+.card2{
+    margin-top: 20px;
+    width:fit-content ;
+    height:514px ;
+    background-color:#E1EDE6 ;
+    padding: 20px 20px;
+    font-family: 'Raleway';
+}
+.card2 img{
+    width: 250px;
+    height: 250px;
+}
+.card2 p{
+    font-size: 18px;
+    color: #86928B;
+    font-weight: 500;
+}
+.card2 h2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.card2 h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card2 h3{
+    color: #598D66;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card2 button{
+    width: 250px;
+    height: 50px;
+    color: #598D66;
+    border: 1px solid #598D66;
+    background-color: #86928b00;
+    border-radius: 0;
+}
+.card3{
+   font-family: "Montserrat", sans-serif;
+   width: 380px;
+   height: 582px;
+   border-radius: 0.5em;
+   margin-top: 20px;
+   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.308);
+}
+.card3 img{
+    width: 380px;
+    height: 250px;
+    border-radius: 0.5em;
+
+}
+.card3 h2{
+    margin-left: 30px;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 143%;
+
+}
+.card3 h3{
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.card3 button{
+    margin-left: 30px;
+    background-color: #FED84C;
+    width: 163px;
+    height: 68px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+}
+.card4{
+    width: 330px;
+    height: 400px;
+    background-color: #0C0B15;
+    border-radius: 1.5em;
+    padding: 23px 27px;
+    font-family: 'Raleway';
+    margin-top: 20px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.About{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #fff;
+}
+.lorem{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #809FB8;
+    margin-top: 26px;
+
+}
+.jason{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #809FB8;
+    margin-top: 24px;
+
+}
+.text{
+    width: 260px;
+}
